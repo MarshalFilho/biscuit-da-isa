@@ -19,7 +19,7 @@ const produtos = ref([
         id: 1,
         nome: 'Chaveiros de biscuit para casal ou amigos',
         preco: 'A partir de R$ 8,00',
-        imageUrl: 'https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbpr92sw6g6132', // Use um link de imagem real aqui
+        imageUrl: 'https://down-br.img.susercontent.com/file/8801580a783d724ccba147368130b0cf.webp', // Use um link de imagem real aqui
         shopeeUrl: 'https://shopee.com.br/Chaveiros-de-biscuit-para-casal-ou-amigos-i.409141199.10010613388'
     },
     {
