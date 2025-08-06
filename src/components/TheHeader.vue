@@ -1,6 +1,6 @@
 <template>
     <header class="site-header">
-        <h1>Ateliê da [Nome da sua Namorada]</h1>
+        <h1>Biscuit Da Isa</h1>
         <p>A arte em biscuit feita com carinho</p>
     </header>
 </template>

@@ -17,24 +17,24 @@ import ProductCard from './ProductCard.vue';
 const produtos = ref([
     {
         id: 1,
-        nome: 'Personagem de Anime em Biscuit',
-        preco: 'R$ 80,00',
-        imageUrl: 'https://i.imgur.com/ABUI6kj.jpeg', // Use um link de imagem real aqui
-        shopeeUrl: 'https://shopee.com.br/seu-link-aqui'
+        nome: 'Chaveiros de biscuit para casal ou amigos',
+        preco: 'A partir de R$ 8,00',
+        imageUrl: 'https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbpr92sw6g6132', // Use um link de imagem real aqui
+        shopeeUrl: 'https://shopee.com.br/Chaveiros-de-biscuit-para-casal-ou-amigos-i.409141199.10010613388'
     },
     {
         id: 2,
-        nome: 'Vela de Aniversário Temática',
-        preco: 'R$ 55,00',
-        imageUrl: 'https://i.imgur.com/uSjaFf2.jpeg', // Use um link de imagem real aqui
-        shopeeUrl: 'https://shopee.com.br/seu-link-aqui'
+        nome: 'Chaveiro de Rim e Pulmão',
+        preco: 'A partir de R$ 35,00',
+        imageUrl: 'https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbpr92sw6g6132', // Use um link de imagem real aqui
+        shopeeUrl: 'https://shopee.com.br/Chaveiro-de-Rim-e-pulm%C3%A3o-20-unidades-i.409141199.12611059154'
     },
     {
         id: 3,
-        nome: 'Lembrancinha de Casamento',
-        preco: 'A partir de R$ 15,00',
-        imageUrl: 'https://i.imgur.com/2s4gwF0.jpeg', // Use um link de imagem real aqui
-        shopeeUrl: 'https://shopee.com.br/seu-link-aqui'
+        nome: 'Bonecos de profissões, biscuit personalizados',
+        preco: 'A partir de R$ 25,00',
+        imageUrl: 'https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbpr92sw6g6132', // Use um link de imagem real aqui
+        shopeeUrl: 'https://shopee.com.br/Bonecos-de-profiss%C3%B5es-biscuit-personalizados-i.409141199.4093389565'
     },
     // Adicione mais produtos aqui
 ]);

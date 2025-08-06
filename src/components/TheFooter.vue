@@ -1,6 +1,6 @@
 <template>
     <footer class="site-footer">
-        <p>&copy; 2025 - Ateliê da [Nome da sua Namorada]. Todos os direitos reservados.</p>
+        <p>&copy; 2025 - Biscuit da Isa. Todos os direitos reservados.</p>
         <p>Entre em contato pelo <a href="https://wa.me/55SEUNUMERO" target="_blank">WhatsApp</a>!</p>
     </footer>
 </template>
