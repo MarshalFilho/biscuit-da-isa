@@ -26,14 +26,14 @@ const produtos = ref([
         id: 2,
         nome: 'Chaveiro de Rim e Pulmão',
         preco: 'A partir de R$ 35,00',
-        imageUrl: 'https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbpr92sw6g6132', // Use um link de imagem real aqui
+        imageUrl: 'https://down-br.img.susercontent.com/file/f7dcb211efa77de881e77ac5694617b6.webp', // Use um link de imagem real aqui
         shopeeUrl: 'https://shopee.com.br/Chaveiro-de-Rim-e-pulm%C3%A3o-20-unidades-i.409141199.12611059154'
     },
     {
         id: 3,
         nome: 'Bonecos de profissões, biscuit personalizados',
         preco: 'A partir de R$ 25,00',
-        imageUrl: 'https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbpr92sw6g6132', // Use um link de imagem real aqui
+        imageUrl: 'https://down-br.img.susercontent.com/file/62595e118fc8b7ef283dcf6dfd3ded8b.webp', // Use um link de imagem real aqui
         shopeeUrl: 'https://shopee.com.br/Bonecos-de-profiss%C3%B5es-biscuit-personalizados-i.409141199.4093389565'
     },
     // Adicione mais produtos aqui
