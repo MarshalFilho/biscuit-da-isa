@@ -1,10 +1,11 @@
 <template>
     <div class="product-card">
-        <img :src="produto.imageUrl" :alt="produto.nome" class="product-image" />
+        <img :src="produto.imageUrl" :alt="produto.nome" class="product-image" @error="onImageError" />
         <div class="product-info">
             <h3 class="product-name">{{ produto.nome }}</h3>
-            <p class="product-price">{{ produto.preco }}</p>
-            <a :href="produto.shopeeUrl" target="_blank" rel="noopener noreferrer" class="shopee-button">
+            <p class="product-price">A partir de {{ formattedPrice }}</p>
+            <a :href="produto.shopeeUrl" target="_blank" rel="noopener noreferrer" class="shopee-button"
+                :aria-label="`Ver ${produto.nome} na Shopee`">
                 Ver na Shopee
             </a>
         </div>
@@ -12,12 +13,27 @@
 </template>
 
 <script setup>
-defineProps({
+import { computed } from 'vue';
+const props = defineProps({
     produto: {
         type: Object,
         required: true
     }
 });
+
+const formattedPrice = computed(() => {
+    if (typeof props.produto.preco !== 'number') {
+        return props.produto.preco;
+    }
+    return new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL'
+    }).format(props.produto.preco);
+});
+
+const onImageError = (event) => {
+    event.target.src = 'https://placehold.co/400x250?text=Imagem+Indisponível';
+};
 </script>
 
 <style scoped>
@@ -39,9 +55,9 @@ defineProps({
 .product-image {
     width: 100%;
     height: 250px;
-    /* Altura fixa para manter a consistência */
     object-fit: cover;
-    /* Garante que a imagem cubra a área sem distorcer */
+    background-color: #f0f0f0;
+    /* Cor de fundo enquanto a imagem carrega */
 }
 
 .product-info {
@@ -69,7 +85,6 @@ defineProps({
 .shopee-button {
     display: inline-block;
     background-color: #ee4d2d;
-    /* Cor da Shopee */
     color: white;
     padding: 0.75rem 1.5rem;
     border-radius: 8px;
