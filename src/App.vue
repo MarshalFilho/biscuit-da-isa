@@ -1,19 +1,22 @@
 <template>
-    <TheHeader />
+    <SiteHeader />
+    <HighlightBanner />
     <main>
         <ProductList />
     </main>
-    <TheFooter />
+    <SiteFooter />
+    <BackToTopButton />
 </template>
 
 <script setup>
 import TheHeader from './components/TheHeader.vue';
+import HighlightBanner from './components/HighlightBanner.vue';
 import ProductList from './components/ProductList.vue';
 import TheFooter from './components/TheFooter.vue';
+import BackToTopButton from './components/BackToTopButton.vue';
 </script>
 
 <style>
-/* Importando os estilos globais de assets/main.css */
 @import './assets/main.css';
 
 main {

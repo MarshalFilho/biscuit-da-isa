@@ -4,10 +4,12 @@
         <div class="product-info">
             <h3 class="product-name">{{ produto.nome }}</h3>
             <p class="product-price">A partir de {{ formattedPrice }}</p>
-            <a :href="produto.shopeeUrl" target="_blank" rel="noopener noreferrer" class="shopee-button"
-                :aria-label="`Ver ${produto.nome} na Shopee`">
-                Ver na Shopee
-            </a>
+            <div text-align="center">
+                <a :href="produto.shopeeUrl" target="_blank" rel="noopener noreferrer" class="shopee-button"
+                    :aria-label="`Ver ${produto.nome} na Shopee`">
+                    Ver na Shopee
+                </a>
+            </div>
         </div>
     </div>
 </template>

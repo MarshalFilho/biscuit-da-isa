@@ -1,7 +1,7 @@
 <template>
     <footer class="site-footer">
         <p>&copy; {{ currentYear }} - Biscuit da Isa. Todos os direitos reservados.</p>
-        <p>Entre em contato pelo <a href="https://wa.me/5562985298988" target="_blank">WhatsApp</a>!</p>
+        <p>Entre em contato pelo <a href="https://wa.me/556298529" target="_blank">WhatsApp</a>!</p>
     </footer>
 </template>
 
